@@ -1,0 +1,19 @@
+{
+  "name": "teleg-bot-italiano",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "nikitahummus",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.5",
+    "node-telegram-bot-api": "^0.54.0",
+    "nodemon": "^2.0.13"
+  }
+}
